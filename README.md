@@ -24,7 +24,7 @@ Step 4. Round Float PurchaseTotals in 2 decimals
 - The data type float may have many decimal places which makes the value of PurchaseTotals confusing.  Assuming PurchaseTotals is a currency, ending the value in 2 decimal places is easier to understand.
 
 Step 5. Update Clean Data to Production Table
-- Merging the Staging Table with the Production Table and updating any existing entries based on UserID.  New enteries is added to the Production Table if the valid UserID doesn't exist.
+- Merging the Staging Table with the Production Table and updating any existing entries based on UserID.  New entries is added to the Production Table if the valid UserID doesn't exist.
 
 Step 6. Truncate the Staging Table
 - The data in the Staging Table is no longer needed.  As such it should be removed to save space.
